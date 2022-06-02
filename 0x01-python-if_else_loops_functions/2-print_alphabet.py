@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for i in range(97, 123):
-    print("{:i}".format(i), end="")
+    print("{:d}".format(i), end="")
