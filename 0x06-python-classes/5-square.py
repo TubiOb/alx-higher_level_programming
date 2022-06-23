@@ -3,7 +3,7 @@ class Square:
     """Represents a square.
     Private instance attribute: size:
         - property def size(self)
-        - property setter def(size(self, value)
+        - property setter def size(self, value)
     Instantiation with optional size.
     Public instance method: def area(self).
     Public instance method: def my_print(self).
@@ -14,7 +14,7 @@ class Square:
         self.__size = size
 
     @property
-    def size(self, value):
+    def size(self):
         """Retrieves the size."""
         return self.__size
 
